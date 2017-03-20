@@ -2,6 +2,7 @@
 
 
 html{
+	margin: 0;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
@@ -18,21 +19,10 @@ body {
 }
 
 .title {
+	margin-top: 32px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 86px;
 }
-
-bg, title-bg {
-	background-image: url("../img/background.png");
-	background-size: 1080px auto;
-	background-repeat: no-repeat;
-}
-
-bg {
-	background-position: center top;
-	padding: 70px 90px 120px 90px;
-}
-
 
 @font-face {
   font-family: 'DolceVita';

@@ -33,12 +33,37 @@ a {
 	padding: 28px;
 	color: #fff;
 	border: 3px solid #fff;
+    background-color: transparent;
 	text-align: center;
 	outline: none;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
 	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.foot-button {
+    margin-top: -2px;
+	display: inline-block;
+	width: 128;
+	font-size: 28;
+	color: #fff;
+	border: 3px solid #fff;
+	text-align: center;
+    background-color: transparent;
+	outline: none;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.foot-button:hover,
+.foot-button:active {
+  background-color: #fff;
+  color: black;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
 }
 
 .ghost-button:hover,
@@ -66,7 +91,7 @@ a {
 @font-face {
   font-family: 'DolceVita';
   src: url('../fonts/Dolce_Vita.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   url('../fonts/Dolce_Vita.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+   url('../fonts/Dolce_Vita.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3â€”5 */
 } 
 
 /* For mobile phones: */

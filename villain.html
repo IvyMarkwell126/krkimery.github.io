@@ -1,78 +1,64 @@
-<html>
-<head>
+<!DOCTYPE html>
 
-<title>SUPERVILLAINS</title>
+	<head>
+	<title>Supervillains</title>
+	<link rel="stylesheet" type="text/css" href="css/models.css" media="all" />
+	</head>
 
-<link rel="stylesheet" type="text/css" href="css/models.css" media="all" />
-<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Viga'>
-
-</head>
-
-<body>
-
-<div class="navbar col-12"> <!-- start navbar code -->
-<ul>
-<li class="col-2"><a class="active" href="index.html">Home</a></li>
-<li class="col-3"><a href="hero.html">Super Heroes</a></li>
-<li class="col-3"><a href="villain.html">Super Villains</a></li>
-<li class="col-3"><a href="organization.html">Organizations</a></li>
-</ul>
-</div> <!-- end navbar code-->
-
-<div id="table-elements"> <!--start table elements-->
-
-<p><h1><center>SUPERVILLAIN INFORMATION</center></h1></p>
-
-<div class="table"> <!--start individual tables-->
-
-<div class="column"> <!-- start column 1-->
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/poison-ivy.jpg" alt="POISON IVY" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Real Name: Pamela Lillian Isley</span></li>
-<li class="row_style_1 align_center"><span>AKA Poison Ivy</span></li>
-<li class="row_style_2 align_center"><span>Birth Place: Seattle, Washington</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: June, 1966</span></li>
-<li class="row_style_2 align_center no-option"><span>Main Ability: Poisonous</span></li>
-<li class="row_style_footer_1"><a href="poisonivyprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 1-->
-
-<div class="column"> <!--start column 2-->
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/lex-luthor.jpg" alt="LEX LUTHOR" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Real Name: Alexander Joseph Luther</span></li>
-<li class="row_style_1 align_center"><span>AKA Lex Luthor</span></li>
-<li class="row_style_2 align_center"><span>Birth Place: Suicide Slum, Metropolis</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: September, 1986</span></li>
-<li class="row_style_2 align_center no-option"><span>Main Ability: Genius</span></li>
-<li class="row_style_footer_1"><a href="lexlutherprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 2-->
-
-<div class="column">
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/darkseid.jpg" alt="DARKSEID" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Real Name: Uxas</span></li>
-<li class="row_style_1 align_center"><span>AKA Darkseid</span></li>
-<li class="row_style_2 align_center"><span>Birth Place: Apokolips</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: December, 1970</span></li>
-<li class="row_style_2 align_center no-option"><span>Main Ability: Superhuman</span></li>
-<li class="row_style_footer_1"><a href="darkseidprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 3-->
-
-</div><!--end individual tables-->
-
-</div><!--end table elements-->
-
-</body>
+	<body>
+		<!-- start navbar code -->
+		<div class="navbar col-12"> 
+		<ul>
+		<li class="col-2"><a class="active" href="index.html">Home</a></li>
+		<li class="col-3"><a href="hero.html">Super Heroes</a></li>
+		<li class="col-3"><a href="villain.html">Super Villains</a></li>
+		<li class="col-3"><a href="organization.html">Organizations</a></li>
+		</ul>
+		</div>
+		<!-- end navbar code -->
+		
+		<p><h1><center>SUPERVILLAIN INFORMATION<center></h1></p>
+		
+		<!-- Start model tables -->
+		<div class="table-responsive">
+			<table class="table table-bordered table-striped">
+			
+				<thead>
+					<tr>
+						<th>Real Name</th>
+						<th>AKA</th>
+						<th>Birth Place</th>
+						<th>First Appearance</th>
+						<th>Main Ability</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>Pamela Lillian Isley</td>
+						<td>Poison Ivy</td>
+						<td>Seattle, Washington</td>
+						<td>June, 1966</td>
+						<td>Poisonous</td>
+					</tr>
+					<tr>
+						<td>Alexander Joseph Luther</td>
+						<td>Lex Luthor</td>
+						<td>Suicide Slum, Metropolis</td>
+						<td>September, 1986</td>
+						<td>Genius</td>
+					</tr>
+					<tr>
+						<td>Uxas</td>
+						<td>Darkseid</td>
+						<td>Apokolips</td>
+						<td>December, 1970</td>
+						<td>Superhuman</td>
+					</tr>
+				</tbody>
+				
+			</table>
+		</div>
+		<!-- End model tables -->
+	</body>
 </html>

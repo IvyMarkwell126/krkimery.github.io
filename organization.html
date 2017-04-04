@@ -1,78 +1,82 @@
-<html>
-<head>
+<!DOCTYPE html>
 
-<title>COMIC BOOK ORGANIZATIONS</title>
+	<head>
+	<title>Organizations</title>
+	<link rel="stylesheet" type="text/css" href="css/models.css" media="all" />
+	</head>
 
-<link rel="stylesheet" type="text/css" href="css/models.css" media="all" />
-<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Viga'>
-
-</head>
-
-<body>
-
-<div class="navbar col-12"> <!-- start navbar code -->
-<ul>
-<li class="col-2"><a class="active" href="index.html">Home</a></li>
-<li class="col-3"><a href="hero.html">Super Heroes</a></li>
-<li class="col-3"><a href="villain.html">Super Villains</a></li>
-<li class="col-3"><a href="organization.html">Organizations</a></li>
-</ul>
-</div> <!-- end navbar code-->
-
-<div id="table-elements"> <!--start table elements-->
-
-<p><h1><center>ORGANIZATIONS INFORMATION</center></h1></p>
-
-<div class="table"> <!--start individual tables-->
-
-<div class="column">
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/justice-league.jpg" alt="JUSTICE LEAGUE" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Name: The Justice League</span></li>
-<li class="row_style_1 align_center"><span>Birth Place: Various Locations on Earth During Alien Invasion</span></li>
-<li class="row_style_2 align_center"><span>Main Headquaters: Watchtower, Earth's Moon</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: September, 2011</span></li>
-<li class="row_style_2 align_center no-option"><span>Comic Book Universe: DC Comics</span></li>
-<li class="row_style_footer_1"><a href="justiceleagueprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 1-->
-
-<div class="column"> <!--start column 2-->
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/avengers.jpg" alt="AVENGERS" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Name: The Avengers</span></li>
-<li class="row_style_1 align_center"><span>Birth Place: New York</span></li>
-<li class="row_style_2 align_center"><span>Main Headquaters: Manhattan, New York</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: September, 1963</span></li>
-<li class="row_style_2 align_center no-option"><span>Comic Book Universe: Marvel Comics</span></li>
-<li class="row_style_footer_1"><a href="avengersprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 2-->
-
-<div class="column">
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/x-men.jpg" alt="CAPTAIN AMERICA" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Name: The X-Men</span></li>
-<li class="row_style_1 align_center"><span>Birth Place: New York</span></li>
-<li class="row_style_2 align_center"><span>Main Headquaters: Manhattan, New York</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: September, 1963</span></li>
-<li class="row_style_2 align_center no-option"><span>Comic Book Universe: Marvel Comics</span></li>
-<li class="row_style_footer_1"><a href="xmenprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 3-->
-
-</div><!--end individual tables-->
-
-</div><!--end table elements-->
-
-</body>
+	<body>
+		<!-- start navbar code -->
+		<div class="navbar col-12"> 
+		<ul>
+		<li class="col-2"><a class="active" href="index.html">Home</a></li>
+		<li class="col-3"><a href="hero.html">Super Heroes</a></li>
+		<li class="col-3"><a href="villain.html">Super Villains</a></li>
+		<li class="col-3"><a href="organization.html">Organizations</a></li>
+		</ul>
+		</div>
+		<!-- end navbar code -->
+		
+		<p><h1><center>ORGANIZATIONS INFORMATION<center></h1></p>
+		
+		<!-- Start model tables -->
+		<div class="table-responsive">
+			<table id = "myTable" class="table table-bordered table-striped">
+			
+					<tr>
+						<th>Name</th>
+						<th>Birth Place</th>
+						<th>Main Headquaters</th>
+						<th>First Appearance</th>
+						<th>Founding Member</th>
+					</tr>
+				
+					<tr>
+						<td><a href="justiceleagueprofile.html">The Justice League</a></td>
+						<td>Alien Invasion</td>
+						<td>Watchtower, Earth's Moon</td>
+						<td>September, 2011</td>
+						<td>Superman</td>
+					</tr>
+					<tr>
+						<td><a href="avengersprofile.html">The Avengers</a></td>
+						<td>New York</td>
+						<td>Manhattan, New York</td>
+						<td>September, 1963</td>
+						<td>Iron Man</td>
+					</tr>
+					<tr>
+						<td><a href="xmenprofile.html">The X-Men</a></td>
+						<td>New York</td>
+						<td>Manhattan, New York</td>
+						<td>September, 1963</td>
+						<td>Xavier</td>
+					</tr>
+					<tr>
+						<td><a href="leagueofshadowsprofile.html">League of Shadows</a></td>
+						<td>Gotham City</td>
+						<td>Tibet, Gotham City</td>
+						<td>June, 1971</td>
+						<td>Ra's al Ghul</td>
+					</tr>
+					<tr>
+						<td><a href="teentitansprofile.html">Teen Titans</a></td>
+						<td>New York</td>
+						<td>East River, New York</td>
+						<td>June, 1964</td>
+						<td>Robin</td>
+					</tr>
+					<tr>
+						<td><a href="evilprofile.html">E.V.I.L.</a></td>
+						<td>Pacific Ocean</td>
+						<td>Bikini Bottom, Pacific Ocean</td>
+						<td>June, 2002</td>
+						<td>Manray</td>
+					</tr>
+				
+			</table>
+            <script src="js/index.js"></script>
+		</div>
+		<!-- End model tables -->
+	</body>
 </html>

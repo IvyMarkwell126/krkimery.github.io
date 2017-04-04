@@ -1,78 +1,82 @@
-<html>
-<head>
+<!DOCTYPE html>
 
-<title>SUPERHEROES</title>
+	<head>
+	<title>Superheroes</title>
+	<link rel="stylesheet" type="text/css" href="css/models.css" media="all" />
+	</head>
 
-<link rel="stylesheet" type="text/css" href="css/models.css" media="all" />
-<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Viga' />
-
-</head>
-
-<body>
-
-<div class="navbar col-12"> <!-- start navbar code -->
-<ul>
-<li class="col-2"><a class="active" href="index.html">Home</a></li>
-<li class="col-3"><a href="hero.html">Super Heroes</a></li>
-<li class="col-3"><a href="villain.html">Super Villains</a></li>
-<li class="col-3"><a href="organization.html">Organizations</a></li>
-</ul>
-</div> <!-- end navbar code -->
-
-<div id="table-elements"> <!--start table elements-->
-
-<p><h1><center>SUPERHERO INFORMATION</center></h1></p>
-
-<div class="table"> <!--start individual tables-->
-
-<div class="column">
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/spiderman.jpg" alt="SPIDERMAN" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Real Name: Peter Benjamin Parker</span></li>
-<li class="row_style_1 align_center"><span>AKA Spiderman</span></li>
-<li class="row_style_2 align_center"><span>Birth Place: Forest Hills, New York</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: August, 1962</span></li>
-<li class="row_style_2 align_center no-option"><span>Main Ability: Spider Powers</span></li>  
-<li class="row_style_footer_1"><a href="spiderprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 1-->
-
-<div class="column"> <!--start column 2-->
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/the-flash.jpg" alt="THE FLASH" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Real Name: Barry Allen</span></li>
-<li class="row_style_1 align_center"><span>AKA The Flash</span></li>
-<li class="row_style_2 align_center"><span>Birth Place: Fallville, Iowa</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: October, 1956</span></li>
-<li class="row_style_2 align_center no-option"><span>Main Ability: Speedforce</span></li>
-<li class="row_style_footer_1"><a href="flashprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 2-->
-
-<div class="column">
-<ul>
-
-<li class="header_row align_center">
-<div class="pic_text"><span><img src="img/captain-america.jpg" alt="CAPTAIN AMERICA" height="100" width="270"></span></div>
-
-</li>
-<li class="row_style_2 align_center"><span>Real Name: Steven Grant Rogers</span></li>
-<li class="row_style_1 align_center"><span>AKA Captain America</span></li>
-<li class="row_style_2 align_center"><span>Birth Place: Manhattan, New York</span></li>
-<li class="row_style_1 align_center"><span>First Appearance: March, 1941</span></li>
-<li class="row_style_2 align_center no-option"><span>Main Ability: Enhanced Strength</span></li>
-<li class="row_style_footer_1"><a href="captmericaprofile.html" class="bio_button">PROFILE PAGE</a></li>
-</ul></div><!--end column 3-->
-
-</div><!--end individual tables-->
-
-</div><!--end table elements-->
-
-</body>
+	<body>
+		<!-- start navbar code -->
+		<div class="navbar col-12"> 
+		<ul>
+		<li class="col-2"><a class="active" href="index.html">Home</a></li>
+		<li class="col-3"><a href="hero.html">Super Heroes</a></li>
+		<li class="col-3"><a href="villain.html">Super Villains</a></li>
+		<li class="col-3"><a href="organization.html">Organizations</a></li>
+		</ul>
+		</div>
+		<!-- end navbar code -->
+		
+		<p><h1><center>SUPERHERO INFORMATION<center></h1></p>
+		
+		<!-- Start model tables -->
+		<div class="table-responsive">
+			<table id = "myTable" class="table table-bordered table-striped">
+			
+					<tr>
+						<th>Real Name</th>
+						<th>AKA</th>
+						<th>Birth Place</th>
+						<th>First Appearance</th>
+						<th>Main Ability</th>
+					</tr>
+				
+					<tr>
+						<td><a href="spiderprofile.html">Peter Parker</a></td>
+						<td>Spiderman</td>
+						<td>Forest Hills, New York</td>
+						<td>August, 1962</td>
+						<td>Spider Powers</td>
+					</tr>
+					<tr>
+						<td><a href="flashprofile.html">Barry Allen</a></td>
+						<td>The Flash</td>
+						<td>Fallville, Iowa</td>
+						<td>October, 1956</td>
+						<td>Speedforce</td>
+					</tr>
+					<tr>
+						<td><a href="captmericaprofile.html">Steven Rogers</a></td>
+						<td>Captain America</td>
+						<td>Manhattan, New York</td>
+						<td>March, 1941</td>
+						<td>Enhanced Strength</td>
+					</tr>
+					<tr>
+						<td><a href="phoenixprofile.html">Jean Grey</a></td>
+						<td>Phoenix</td>
+						<td>Annandale-on-Hudson, New York</td>
+						<td>September, 1999</td>
+						<td>Telekinesis</td>
+					</tr>
+					<tr>
+						<td><a href="ironmanprofile.html">Anthony Stark</a></td>
+						<td>Iron Man</td>
+						<td>Long Island, New York</td>
+						<td>March, 1963</td>
+						<td>Genius</td>
+					</tr>
+					<tr>
+						<td><a href="supermanprofile.html">Clark Kent</a></td>
+						<td>Superman</td>
+						<td>Krypton</td>
+						<td>June, 1938</td>
+						<td>Invulnerability</td>
+					</tr>
+				
+			</table>
+            <script src="js/index.js"></script>
+		</div>
+		<!-- End model tables -->
+	</body>
 </html>

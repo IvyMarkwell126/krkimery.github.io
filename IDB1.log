@@ -1,14 +1,90 @@
+commit dd0ca4c45c0bdf25e36cc0635c953dda4e56e411
+Merge: cdbf029 b71a0a7
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:50:17 2017 -0500
+
+    Merge branch 'master' of https://github.com/krkimery/krkimery.github.io
+
+commit cdbf029bbd09ffcb1846d98ae45c740eb8ad7ee0
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:49:13 2017 -0500
+
+    update
+
+commit b71a0a70bd6f325eff93c0de1997c0278356d6f0
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Thu Mar 23 21:45:34 2017 -0500
+
+    updated log
+
+commit a30a3167ad50346ad9596cf1b04321c393e71e12
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:44:49 2017 -0500
+
+    Update page links
+
+commit abd6854585ec48ac877b574f1aa79a4733524134
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:43:30 2017 -0500
+
+    Update about info
+
+commit 606aae78e32af8ed8021d1d5e518f97fa991cef6
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:42:24 2017 -0500
+
+    updated profiles
+
+commit e5d0ecfeb41c89e6de8acdeecc28e7769d7dc8f8
+Merge: 4a21b6c a898344
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:37:20 2017 -0500
+
+    Merge branch 'dev-nick'
+
+commit a898344235eb785463f5dc307297f81fcc33a2cc
+Merge: ab5848b 890efd7
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Thu Mar 23 21:36:04 2017 -0500
+
+    created log file
+
+commit ab5848b751bd34183568fc659bbd3e0aeed6aea5
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Thu Mar 23 21:34:44 2017 -0500
+
+    created log
+
+commit 890efd7fccfa8c82ea9519af0573107801c39b8f
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:34:02 2017 -0500
+
+    Update About html
+
 commit 96294285910bbad21deaee2aa1df87ad9055a74a
 Author: Kyle Kimery <kylekimery@utexas.edu>
 Date:   Thu Mar 23 21:32:20 2017 -0500
 
     changed all social media
 
+commit 4a21b6c2ee671c602d1da1504902416e18d72603
+Merge: ce36d1b 0d8e94f
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Thu Mar 23 21:19:23 2017 -0500
+
+    Merge branch 'dev-nick'
+
 commit 0d8e94f6b5471e9930ce09ca000d869a4568ac56
 Author: Nicholas Frawley <nfrawley93@gmail.com>
 Date:   Thu Mar 23 21:18:50 2017 -0500
 
     update about info
+
+commit ce36d1b04292816a1801636ab64f1879b389e925
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Thu Mar 23 21:13:49 2017 -0500
+
+    updated files
 
 commit 39d0c0c980993fc2a34cadee1c3bcdcf67fe4b56
 Author: Kyle Kimery <kylekimery@utexas.edu>

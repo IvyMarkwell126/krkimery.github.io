@@ -159,7 +159,7 @@ input[type="button"]:hover:not(.active) {
 }
 
 .sort-button {
-    position: absolute;
     text-align: right;
-    width: 14.5%;
+    width: 100%;
+    margin-left: 20px;
 }

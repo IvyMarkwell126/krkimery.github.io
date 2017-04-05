@@ -19,6 +19,12 @@ function sortTable(n) {
       one from current row and one from the next:*/
       x = rows[i].getElementsByTagName("TD")[n];
       y = rows[i + 1].getElementsByTagName("TD")[n];
+      //If the column is "real name" then ignore <a href>
+      if (n == 0) {
+        x = x.getElementsByTagName("a")[n];
+        y = y.getElementsByTagName("a")[n];
+      }
+
       /*check if the two rows should switch place,
       based on the direction, asc or desc:*/
       if (dir == "asc") {
@@ -51,16 +57,6 @@ function sortTable(n) {
       }
     }
   }
-
-  /*Determines the direction of the search, and generates and up/down
-  arrow to indicute if it's desceneding or ascending*/
-  if (dir == "asc") {
-    document.getElementsByClassName("sort-button")[n].innerHTML = "▼"
-  }
-  else {
-    document.getElementsByClassName("sort-button")[n].innerHTML = "▲" 
-  }
-
 }
 
 

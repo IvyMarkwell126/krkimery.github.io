@@ -51,6 +51,16 @@ function sortTable(n) {
       }
     }
   }
+
+  /*Determines the direction of the search, and generates and up/down
+  arrow to indicute if it's desceneding or ascending*/
+  if (dir == "asc") {
+    document.getElementsByClassName("sort-button")[n].innerHTML = "▼"
+  }
+  else {
+    document.getElementsByClassName("sort-button")[n].innerHTML = "▲" 
+  }
+
 }
 
 

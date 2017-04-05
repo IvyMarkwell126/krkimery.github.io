@@ -76,7 +76,7 @@ function sortTable(n) {
 // get the table element
 var $table = document.getElementById("myTable"),
 // number of rows per page
-$n = Math.ceil(($table.rows.length - 1) / 2),
+$n = 3,
 // number of rows of the table
 $rowCount = $table.rows.length,
 // get the first cell's tag name (in the first row)
@@ -90,7 +90,7 @@ $i,$ii,$j = ($hasHead)?1:0,
 // holds the first row if it has a (<TH>) & nothing if (<TD>)
 $th = ($hasHead?$table.rows[(0)].outerHTML:"");
 // count the number of pages
-var $pageCount = Math.ceil($rowCount / $n) -1;
+var $pageCount = Math.ceil(($rowCount-1) / $n);
 // if we had one page only, then we have nothing to do ..
 if ($pageCount > 1) {
     // assign each row outHTML (tag name & innerHTML) to the array

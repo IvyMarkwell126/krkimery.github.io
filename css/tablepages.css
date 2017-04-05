@@ -60,9 +60,6 @@ h1 {
 
 /* Navigation bar */
 
-/**/
-
-
 /* Responsive Element */
 [class*="col-"] {
     width: 100%;
@@ -92,8 +89,6 @@ h1 {
     .col-12 {width: 100%;}
 }
 
-/* Responsive Element */
-
 /* Table Properties */
 
 #one-column-emphasis
@@ -108,7 +103,7 @@ h1 {
 {
 	font-size: 21px;
 	font-weight: normal;
-	padding: 30px 30px; /* Change padding for header row of table */
+	padding: 20px 30px 35px 30px; /* Change padding for header row of table - change first value for top padding, 3rd value for bottom padding */
 	color: white;
     background:  #4caf50;
     text-decoration: none;

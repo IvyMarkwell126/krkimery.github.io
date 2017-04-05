@@ -158,3 +158,9 @@ input[type="button"]:not(.active) {
 input[type="button"]:hover:not(.active) {
     background-color: #ddd;
 }
+
+.sort-button {
+    position: absolute;
+    text-align: right;
+    width: 14.5%;
+}

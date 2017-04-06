@@ -24,7 +24,6 @@ function sortTable(n) {
         x = x.getElementsByTagName("a")[n];
         y = y.getElementsByTagName("a")[n];
       }
-
       /*check if the two rows should switch place,
       based on the direction, asc or desc:*/
       if (dir == "asc") {

@@ -1,3 +1,30 @@
+commit 43ff7309e5f9b34ce9dd0405e8988df09a2c2316
+Merge: 94293d9 d5f28ed
+Author: Ivy Markwell <Ivy Markwell>
+Date:   Thu Apr 6 01:03:31 2017 -0500
+
+    Merge branch 'dev-ivy' into development
+    
+    Merging to integrate recalculated stats
+
+commit d5f28edc233caed29a36c729e4ce7e27afd3ae5f
+Author: Ivy Markwell <Ivy Markwell>
+Date:   Thu Apr 6 01:01:42 2017 -0500
+
+    Recalculated stats
+
+commit 94293d9e0c56a2182eaf7e4a532a800009e505d0
+Author: Nicholas Frawley <nfrawley93@gmail.com>
+Date:   Wed Apr 5 23:33:22 2017 -0500
+
+    Add favicon to pages
+
+commit deed3e9ed8cbd98926bb87cb3d29575b73e9a38f
+Author: Kyle Kimery <kylekimery@utexas.edu>
+Date:   Wed Apr 5 18:22:10 2017 -0500
+
+    created git log
+
 commit 8696ac8a291aa9a9def0ba2e67ad7fe284893591
 Author: Kyle Kimery <kylekimery@utexas.edu>
 Date:   Wed Apr 5 18:09:55 2017 -0500

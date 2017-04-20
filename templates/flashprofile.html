@@ -1,0 +1,125 @@
+<html>
+	<title>The Flash</title>
+	<link rel="stylesheet" href="static/css/face.css">
+    <style>
+    h2 {
+    font-size: 30px
+    }
+    h5 {
+        font-size: 18px
+    }
+    </style>
+    <body>
+        <div class="navbar col-12">
+            <ul>
+                <li class="col-3">
+                    <a class="active" href={{ url_for('index') }}>Home</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('hero') }}>Super Heroes</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('villain') }}>Super Villains</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('organization') }}>Organizations</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top">
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+                <!-- Left Column -->
+                <div class="col-4">
+                    <div class="w3-white w3-card">
+                        <div class="w3-display-container">
+                            <img src="static/img/barry.jpg" style="width:100%">
+                            <div class="w3-display-bottomleft w3-container">
+                                <h2 style="color: white">The Flash</h2>
+                            </div>
+                        </div>
+                        <div class="w3-container">
+                            <p class="w3-large">
+                                <b>Information</b>
+                            </p>
+                            <p>
+                                <b>Real Name:</b>
+                            </p>
+                            <h4>Barry Allan</h4>
+                            <p>
+                                <b>Birth Place:</b>
+                            </p>
+                            <h4>Fallville, Iowa</h4>
+                            <p>
+                                <b>First Appearance:</b>
+                            </p>
+                            <h4>October 1956</h4>
+                            <hr>
+                            <p class="w3-large">
+                                <b>Powers</b>
+                            </p>
+                            <p>Speed Force Generator</p>
+                            <p>Speed Force Conduit</p>
+                            <p>Accelerated Healing</p>
+                            <p>High Alcohol Tolerance</p>
+                            <p>Phasing</p>
+                            <p>Speed Force Aura</p>
+                            <p>Increased Perceptions</p>
+                            <p>Time Travel/Dimension Travel</p>
+                            <hr>
+                            <p class="w3-large">
+                                <b>Affiliated with</b>
+                            </p>
+                            <p><a href={{ url_for('lexlutherprofile') }}>Lex Luthor</a></p>
+                            <p><a href={{ url_for('justiceleagueprofile') }}>Justice League</a></p>
+                            <p>Wally West</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2>The Fastest Man Alive</h2>
+                        <div class="w3-container">
+                            <h5>
+                                <b>About</b>
+                            </h5>
+                            <p>A poem, by Nick: 
+                                "Barry Wally is really fast. Like so fast. So fast he is like a flash of light. Like the flash of light. The flash."</p>
+                            <p>All jokes aside, the Flash makes a really good use of speed. He is the fastest man alive, even faster than <a href={{ url_for('supermanprofile') }}>Superman</a>. He taps into the speed force and with the help of his friends, fights crime such as Zoom, Reverse Flash, and along side the <a href={{ url_for('justiceleagueprofile') }}>Justice League</a>. His predcessor is Jay Garrick (Crimson comet) and Wally West (Kid Flash).</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5>
+                                <b>Major Appearances</b>
+                            </h5>
+                            <p>Comic: Flash Point<br>Comic: Crisis on Infinite Earths<br>Comic: Final Crisis<br>Comic: Flash Rebirth</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <div class="w3-container">
+                            <h5>
+                                <b>Highlight Reel</b>
+                            </h5>
+                            <p>Watch The Flash in Action!</p>
+                            <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/snEqU3_-MD8" frameborder="0" allowfullscreen></iframe></p>
+                            <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/10ttZnEsk7g" frameborder="0" allowfullscreen></iframe></p>
+                            <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/kS6SCclrO9w" frameborder="0" allowfullscreen></iframe></p>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-card w3-white">
+                        <div class="w3-container">
+                            <h5>
+                                <b>Social Media</b>
+                            </h5>
+                            <a href="https://www.facebook.com/CWTheFlash/
+">facebook</a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

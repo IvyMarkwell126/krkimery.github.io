@@ -1,0 +1,88 @@
+<html>
+	<head>
+        <link rel="icon" href="static/icons/favicon-H.ico" />
+		<title>Heroes</title>
+		<link rel="stylesheet" href="static/css/tablepages.css">
+		<style>
+		</style>
+	</head>
+    <body>
+        <div class="navbar col-12">
+            <ul>
+                <li class="col-3">
+                    <a href={{url_for('index')}}>Home</a>
+                </li>
+                <li class="col-3">
+                    <a class="active"  href={{url_for('hero')}}>Super Heroes</a>
+                </li>
+                <li class="col-3">
+                    <a href={{url_for('villain')}}>Super Villains</a>
+                </li>
+                <li class="col-3">
+                    <a href={{url_for('organization')}}>Organizations</a>
+                </li>
+            </ul>
+        </div>
+		
+		<p><h1><center>SUPERHERO INFORMATION</center></h1></p>
+		
+        <!-- Page Container -->
+        <div class="col-12" align="center">
+            <!-- The Grid -->
+            <div class="col-12" align="center" id="one-column-emphasis">
+                <table id="myTable" class="col-10">
+					<tr>
+						<th class="col-2" onclick="sortTable(0)"><div class="sort-button">&#x25BC</div>Real Name</th>
+						<th class="col-2" onclick="sortTable(1)"><div class="sort-button">&#x25BC</div>Alias</th>
+						<th class="col-2" onclick="sortTable(2)"><div class="sort-button">&#x25BC</div>Birth Place</th>
+						<th class="col-2" onclick="sortTable(3)"><div class="sort-button">&#x25BC</div>First Appearance</th>
+						<th class="col-2" onclick="sortTable(4)"><div class="sort-button">&#x25BC</div>Main Ability</th>
+					</tr>
+					<tr>
+						<td><a href={{url_for('spiderprofile')}}>Peter Parker</a></td>
+						<td>Spiderman</td>
+						<td>Forest Hills, New York</td>
+                        <td>1962, August</td>
+                        <td>Spider Powers</td>
+					</tr>
+					<tr>
+						<td><a href={{url_for('flashprofile')}}>Barry Allen</a></td>
+						<td>The Flash</td>
+						<td>Fallville, Iowa</td>
+						<td>1956, October</td>
+						<td>Speedforce</td>
+					</tr>
+					<tr>
+						<td><a href={{url_for('captmericaprofile')}}>Steven Rogers</a></td>
+						<td>Captain America</td>
+						<td>Manhattan, New York</td>
+						<td>1941, March</td>
+						<td>Enhanced Strength</td>
+					</tr>
+					<tr>
+						<td><a href={{url_for('phoenixprofile')}}>Jean Grey</a></td>
+						<td>Phoenix</td>
+						<td>Annandale, New York</td>
+						<td>1999, September</td>
+						<td>Telekinesis</td>
+					</tr>
+					<tr>
+						<td><a href={{url_for('ironmanprofile')}}>Anthony Stark</a></td>
+						<td>Iron Man</td>
+						<td>Long Island, New York</td>
+						<td>1963, March</td>
+						<td>Genius</td>
+					</tr>
+					<tr>
+						<td><a href={{url_for('supermanprofile')}}>Clark Kent</a></td>
+						<td>Superman</td>
+						<td>Krypton</td>
+						<td>1938, June</td>
+						<td>Invulnerability</td>
+					</tr>
+                </table>
+                <script src="static/js/tablescript.js"></script>
+            </div>
+        </div>
+    </body>
+</html>

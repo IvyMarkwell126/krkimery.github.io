@@ -1,0 +1,102 @@
+<html>
+	<head>
+        <link rel="icon" href="static/icons/favicon-V.ico" />
+		<title>Villains</title>
+		<link rel="stylesheet" href="static/css/tablepages.css">
+		<style>
+		</style>
+	</head>
+    <body>
+        <div class="navbar col-12">
+            <ul>
+                <li class="col-3">
+                    <a href={{ url_for('index') }}>Home</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('hero') }}>Super Heroes</a>
+                </li>
+                <li class="col-3">
+                    <a class="active" href={{ url_for('villain') }}>Super Villains</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('organization') }}>Organizations</a>
+                </li>
+            </ul>
+        </div>
+		
+		<p><h1><center>SUPERVILLAIN INFORMATION<center></h1></p>
+		
+        <!-- Page Container -->
+        <div class="col-12" align="center">
+            <!-- The Grid -->
+            <div class="col-12" align="center" id="one-column-emphasis">
+                <table id="myTable" class="col-10">
+					<tr>
+						<th style = "background: #ff4d4d" class="col-2" onclick="sortTable(0)"><div class="sort-button">&#x25BC</div>Real Name</th>
+						<th style = "background: #ff4d4d" class="col-2" onclick="sortTable(1)"><div class="sort-button">&#x25BC</div>Alias</th>
+						<th style = "background: #ff4d4d" class="col-2" onclick="sortTable(2)"><div class="sort-button">&#x25BC</div>Birth Place</th>
+						<th style = "background: #ff4d4d" class="col-2" onclick="sortTable(3)"><div class="sort-button">&#x25BC</div>First Appearance</th>
+						<th style = "background: #ff4d4d" class="col-2" onclick="sortTable(4)"><div class="sort-button">&#x25BC</div>Main Ability</th>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('poisonivyprofile')}}>Pamela Isley</a></td>
+						<td>Poison Ivy</td>
+						<td>Seattle, Washington</td>
+						<td>1966, June</td>
+						<td>Poisonous</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('lexlutherprofile') }}>Alexander Luther</a></td>
+						<td>Lex Luthor</td>
+						<td>Suicide Slum, Metropolis</td>
+						<td>1986, September</td>
+						<td>Genius</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('darkseidprofile') }}>Uxas</a></td>
+						<td>Darkseid</td>
+						<td>Apokolips</td>
+						<td>1970, December</td>
+						<td>Superhuman</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('magnetoprofile') }}>Max Eisenhardt</a></td>
+						<td>Magneto</td>
+						<td>Unrevealed</td>
+						<td>1963, September</td>
+						<td>Magnetic Powers</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('catwomanprofile') }}>Selina Kyle</a></td>
+						<td>Catwoman</td>
+						<td>Gotham City</td>
+						<td>1940, March</td>
+						<td>Superhuman</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('venomprofile') }}>Venom Symbiote</a></td>
+						<td>Venom</td>
+						<td>Outer Space</td>
+						<td>1984, May</td>
+						<td>Shapeshifter</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('twofaceprofile') }}>Harvey Dent</a></td>
+						<td>Two-Face</td>
+						<td>Gotham City</td>
+						<td>1954, February</td>
+						<td>Sharpshooter</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('kingpinprofile') }}>Wilson Fisk</a></td>
+						<td>Kingpin</td>
+						<td>New York City, New York</td>
+						<td>1967, June</td>
+						<td>Genius</td>
+					</tr>
+                </table>
+                <script src="static/js/tablescript.js"></script>
+            </div>
+        </div>
+    </body>
+</html>

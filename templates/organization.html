@@ -1,0 +1,88 @@
+<html>
+	<head>
+        <link rel="icon" href="static/icons/favicon-O.ico" />
+		<title>Oranizations</title>
+		<link rel="stylesheet" href="static/css/tablepages.css">
+		<style>
+		</style>
+	</head>
+    <body>
+        <div class="navbar col-12">
+            <ul>
+                <li class="col-3">
+                    <a href={{ url_for('index')}}>Home</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('hero')}}>Super Heroes</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('villain')}}>Super Villains</a>
+                </li>
+                <li class="col-3">
+                    <a class="active" href={{ url_for('organization')}}>Organizations</a>
+                </li>
+            </ul>
+        </div>
+		
+		<p><h1><center>ORGANIZATIONS INFORMATION<center></h1></p>
+		
+        <!-- Page Container -->
+        <div class="col-12" align="center">
+            <!-- The Grid -->
+            <div class="col-12" align="center" id="one-column-emphasis">
+                <table id="myTable" class="col-10">
+					<tr>
+						<th style = "background:  #2196f3" class="col-2" onclick="sortTable(0)"><div class="sort-button">&#x25BC</div>Name</th>
+						<th style = "background:  #2196f3" class="col-2" onclick="sortTable(1)"><div class="sort-button">&#x25BC</div>Birth Place</th>
+						<th style = "background:  #2196f3" class="col-2" onclick="sortTable(2)"><div class="sort-button">&#x25BC</div>Main Headquarters</th>
+						<th style = "background:  #2196f3" class="col-2" onclick="sortTable(3)"><div class="sort-button">&#x25BC</div>First Appearance</th>
+						<th style = "background:  #2196f3" class="col-2" onclick="sortTable(4)"><div class="sort-button">&#x25BC</div>Founding Members</th>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('justiceleagueprofile')}}>The Justice League</a></td>
+						<td>Alien Invasion</td>
+						<td>Watchtower, Earth's Moon</td>
+						<td>2011, September</td>
+						<td>Superman</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('avengersprofile')}}>The Avengers</a></td>
+						<td>New York</td>
+						<td>Manhattan, New York</td>
+						<td>1963, September</td>
+						<td>Iron Man</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('xmenprofile')}}>The X-Men</a></td>
+						<td>New York</td>
+						<td>Manhattan, New York</td>
+						<td>1963, September</td>
+						<td>Xavier</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('leagueofshadowsprofile')}}>League of Shadows</a></td>
+						<td>Gotham City</td>
+						<td>Tibet, Gotham City</td>
+						<td>1971, June</td>
+						<td>Ra's al Ghul</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('teentitansprofile')}}>Teen Titans</a></td>
+						<td>New York</td>
+						<td>East River, New York</td>
+						<td>1964, June</td>
+						<td>Robin</td>
+					</tr>
+					<tr>
+						<td><a href={{ url_for('evilprofile')}}>E.V.I.L.</a></td>
+						<td>Pacific Ocean</td>
+						<td>Bikini Bottom, Pacific Ocean</td>
+						<td>2002, June</td>
+						<td>Manray</td>
+					</tr>
+                </table>
+                <script src="static/js/tablescript.js"></script>
+            </div>
+        </div>
+    </body>
+</html>

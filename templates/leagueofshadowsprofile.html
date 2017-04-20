@@ -1,0 +1,112 @@
+<html>
+	<title>League of Shadows</title>
+    <link rel="icon" href="static/icons/favicon-O.ico" />
+
+	<link rel="stylesheet" href="static/css/face.css">
+    <style>
+    h2 {
+    font-size: 30px
+    }
+    h5 {
+        font-size: 18px
+    }
+    </style>
+    <body>
+        <div class="navbar col-12">
+            <ul>
+                <li class="col-3">
+                    <a class="active" href={{ url_for('index') }}>Home</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('hero') }}>Super Heroes</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('villain') }}>Super Villains</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('organization') }}>Organizations</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top">
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+                <!-- Left Column -->
+                <div class="col-4">
+                    <div class="w3-white w3-card">
+                        <div class="w3-display-container">
+                            <img src="static/img/leagueshadows.jpg" style="width:100%">
+                            <div class="w3-display-bottomleft w3-container">
+                                <h2 style="color: white">League of Shadows</h2>
+                            </div>
+                        </div>
+                        <div class="w3-container">
+                            <p class="w3-large">
+                                <b>Information</b>
+                            </p>
+                            <p>
+                                <b>Comic Universe:</b>
+                            </p>
+                            <h4>DC Comics</h4>
+                            <p>
+                                <b>Series:</b>
+                            </p>
+                            <h4>Batman</h4>
+                            <hr>
+                            <p class="w3-large">
+                                <b>Founding Members</b>
+                            </p>
+                            <p>Deathstroke</p>
+                            <p>Talia al Ghul</p>
+                            <p>Bane</p>
+                            <p><a href={{ url_for('poisonivyprofile') }}>Poison Ivy</a></p>
+                            <p><a href={{ url_for('flashprofile') }}>The Flash</a></p>
+                            <p>Ra's al Ghul</p>
+
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2>League of <strike>Legends</strike> Shadows</h2>
+                        <div class="w3-container">
+                            <h5>
+                                <b>About</b>
+                            </h5>
+                            <p>This shadowy league, the League of Shadows, was created and led by Ra's al Ghoul, Batman's former mentor and current adversary. They are also known as the League of Assassins. </p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5>
+                                <b>Major Appearances</b>
+                            </h5>
+                            <p>Strange Adventures #215<br></p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <div class="w3-container">
+                            <h5>
+                                <b>Highlight Reel</b>
+                            </h5>
+                            <p>A league of extraordinarily shadowy gentleman:</p>
+                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0B4VNsGbkJ4" frameborder="0" allowfullscreen></iframe></p>
+                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/aCnR8D6ThtI" frameborder="0" allowfullscreen></iframe></p>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-card w3-white">
+                        <div class="w3-container">
+                            <h5>
+                                <b>Social Media</b>
+                            </h5>
+                            <a href="https://www.facebook.com/LongLiveRas/">facebook</a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

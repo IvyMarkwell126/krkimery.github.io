@@ -1,0 +1,126 @@
+<html>
+	<title>Iron Man</title>
+	<link rel="stylesheet" href="static/css/face.css">
+    <style>
+    h2 {
+    font-size: 30px
+    }
+    h5 {
+        font-size: 18px
+    }
+    </style>
+    <body>
+        <div class="navbar col-12">
+            <ul>
+                <li class="col-3">
+                    <a class="active" href={{ url_for('index') }}>Home</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('hero') }}>Super Heroes</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('villain') }}>Super Villains</a>
+                </li>
+                <li class="col-3">
+                    <a href={{ url_for('organization') }}>Organizations</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top">
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+                <!-- Left Column -->
+                <div class="col-4">
+                    <div class="w3-white w3-card">
+                        <div class="w3-display-container">
+                            <img src="https://s-media-cache-ak0.pinimg.com/736x/2c/bb/04/2cbb04e7ef9266e1e57a9b0e75bc555f.jpg" style="width:100%">
+                            <div class="w3-display-bottomleft w3-container">
+                                <h2 style="color: white">Iron Man</h2>
+                            </div>
+                        </div>
+                        <div class="w3-container">
+                            <p class="w3-large">
+                                <b>Information</b>
+                            </p>
+                            <p>
+                                <b>Real Name:</b>
+                            </p>
+                            <h4>Anthony Edward "Tony" Stark</h4>
+                            <p>
+                                <b>Birth Place:</b>
+                            </p>
+                            <h4>Sophia, Bulgaria</h4>
+                            <p>
+                                <b>First Appearance:</b>
+                            </p>
+                            <h4>March 1963</h4>
+                            <p>
+                                <b>Universe:</b>
+                            </p>
+                            <h4>Marvel</h4>
+                            <hr>
+                            <p class="w3-large">
+                                <b>Powers</b>
+                            </p>
+                            <p>Armor</p>
+                            <p>Super-Genius Intellect</p>
+                            <p>Expert Businessman</p>
+                            <p>Expert Tactician</p>
+                            <hr>
+                            <p class="w3-large">
+                                <b>Weaknesses</b>
+                            </p>
+                            <p>Alcoholism</p>
+                            <p>Eagerness</p>
+                            <p class="w3-large">
+                                <b>Affiliations</b>
+                            </p>
+                            <p><a href={{ url_for('avengersprofile') }}>Avengers (true leader)</a></p>
+                            <p><a href={{ url_for('xmenprofile') }}>X Men</a></p>
+                            <p><a href={{ url_for('spiderprofile') }}>Spider-Man</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2>"How do you go to the Bathroom in a suit?"[pause] "Just like that."</h2>
+                        <div class="w3-container">
+                            <h5>
+                                <b>About</b>
+                            </h5>
+                            <p>Genius, Billionaire, PlayBoy, Philanthropist. </p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5>
+                                <b>Major Appearances</b>
+                            </h5>Comic: Invincible Iron Man #4<br>Comic: Civil War #1<br>Comic: New Avengers #1<br>Comic: Amazing Spider-Man #529</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <div class="w3-container">
+                            <h5>
+                                <b>Highlight Reel</b>
+                            </h5>
+                            <p>He's Iron Man</p>
+                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Tmb1KbdSBsY" frameborder="0" allowfullscreen></iframe></p>
+                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ZMEHyrfoa7w" frameborder="0" allowfullscreen></iframe></p>
+                            <p><iframe width="560" height="315" src="https://www.youtube.com/embed/RGNhAdVLRKI" frameborder="0" allowfullscreen></iframe></p>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-card w3-white">
+                        <div class="w3-container">
+                            <h5>
+                                <b>Social Media</b>
+                            </h5>
+                            <a href="https://www.facebook.com/ironman/">facebook</a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
